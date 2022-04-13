@@ -1,0 +1,10 @@
+TransPort 0.0.0.0:9040
+RunAsDaemon 1
+AutomapHostsOnResolve 1
+Exitpolicy reject *:*
+
+UseBridges 1
+ClientTransportPlugin obfs4 exec /usr/bin/obfs4proxy 
+Bridge obfs4 141.95.110.208:20783 7215CA49ACA332ACCBCA5D2A9654C6CCC3A0D2CF cert=zHuD+zzIsYyv9fzM0ZcG46v9cB3Hs01dbavXDSD+g3LhkaaLdPfFRuBmZOO8d30XFIpAFQ iat-mode=0
+
+ExcludeNodes {ru}, {ua}, {by}

@@ -1,0 +1,2 @@
+create to_tor hash:net family inet hashsize 16777216 maxelem 16777216 comment
+add -exist to_tor 195.201.201.32/32 comment "DOMAINS_FOR_IPSET"
